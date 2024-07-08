@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Tieoda",
+    "slug": "client",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff2e6"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "enableDangerousExperimentalLeanBuilds": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#fff"
+      },
+      "package": "com.misty_gokul_offl.client"
+    },
+    "web": {
+      "favicon": "./assets/icon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyCA1nIJOr_hK9YnYUHkCEdqJD7Y1szlnfA",
+          "authDomain": "tieoda.firebaseapp.com",
+          "databaseURL": "https://tieoda-default-rtdb.asia-southeast1.firebasedatabase.app",
+          "projectId": "tieoda",
+          "storageBucket": "tieoda.appspot.com",
+          "messagingSenderId": "634920703298",
+          "appId": "1:634920703298:web:d07427123d4e67883ea4db",
+          "measurementId": "G-XSFP1Q9RRQ"
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ba3ac773-f429-4c2e-9022-4b4080417df0"
+      }
+    }
+  }
+}
